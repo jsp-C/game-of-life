@@ -628,9 +628,9 @@ function blueprintConvertor(
     //     });
 
     // translate base on Input
-    let translatedArray = arrays.map((arr, i) => {
-        return [arr[0] + translateX, arr[1] + translateY];
-    });
+    // let translatedArray = arrays.map((arr, i) => {
+    //     return [arr[0] + translateX, arr[1] + translateY];
+    // });
 
     let obj = {
         pattern: arrays,
